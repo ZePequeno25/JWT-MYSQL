@@ -1,7 +1,7 @@
 # DOCUMENTAÇÃO DA API RESTful – ESTUDO PARA PROVA
 ## Node.js + Express + MVC + JWT + MySQL + Bcrypt + Joi
 
-### 1. Visão Geral do Projeto (o que o professor mais cai na prova)
+### 1. Visão Geral do Projeto
 - Arquitetura MVC (Model-View-Controller) aplicada em API REST
 - Autenticação segura com JWT (JSON Web Token)
 - Senhas criptografadas com Bcrypt
@@ -135,3 +135,4 @@ router.get('/profile', authMiddleware, userController.profile); // protegida
 pergunta dissertativa, escreva mais ou menos assim:
 
 > "A API segue o padrão MVC onde os controllers recebem as requisições, os models interagem com o MySQL usando pool de conexões e declarações preparadas, e o middleware de autenticação verifica o JWT em rotas protegidas. As senhas são armazenadas com hash bcrypt, a entrada é validada com Joi e as credenciais do banco ficam seguras no arquivo .env. Essa arquitetura garante separação de responsabilidades, segurança e escalabilidade."
+
