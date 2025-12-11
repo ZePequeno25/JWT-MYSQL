@@ -1,0 +1,33 @@
+{
+  "name": "api-rest-mvc-jwt",
+  "version": "1.0.0",
+  "description": "API RESTful com Node.js, MySQL, JWT, Bcrypt e Joi no modelo MVC",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "jwt",
+    "mysql",
+    "mvc",
+    "api"
+  ],
+  "author": "Kelvin",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "body-parser": "^2.2.1",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "joi": "^18.0.2",
+    "jsonwebtoken": "^9.0.3",
+    "mysql2": "^3.15.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
