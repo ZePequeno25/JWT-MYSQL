@@ -134,7 +134,4 @@ router.get('/profile', authMiddleware, userController.profile); // protegida
 
 pergunta dissertativa, escreva mais ou menos assim:
 
-> "A API segue o padrão MVC onde os controllers recebem as requisições, os models interagem com o MySQL usando pool de conexões e prepared statements, e o middleware de autenticação verifica o JWT em rotas protegidas. As senhas são armazenadas com hash bcrypt, a entrada é validada com Joi e as credenciais do banco ficam seguras no arquivo .env. Essa arquitetura garante separação de responsabilidades, segurança e escalabilidade."
-
-Boa prova e boa sorte!
-
+> "A API segue o padrão MVC onde os controllers recebem as requisições, os models interagem com o MySQL usando pool de conexões e declarações preparadas, e o middleware de autenticação verifica o JWT em rotas protegidas. As senhas são armazenadas com hash bcrypt, a entrada é validada com Joi e as credenciais do banco ficam seguras no arquivo .env. Essa arquitetura garante separação de responsabilidades, segurança e escalabilidade."
