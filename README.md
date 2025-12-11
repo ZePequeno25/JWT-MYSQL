@@ -1,9 +1,3 @@
-Claro! Aqui está o documento **perfeito para você estudar hoje e arrasar na prova amanhã**.  
-Ele explica **tudo** o que o professor mais cobra em provas sobre API REST com Node.js + MVC + JWT + MySQL + Bcrypt + Joi.
-
-Você pode copiar e colar direto no Word, Google Docs ou imprimir. Está organizado do jeito que os professores adoram: objetivo, claro e com exemplos.
-
-────────────────────────
 # DOCUMENTAÇÃO DA API RESTful – ESTUDO PARA PROVA
 ## Node.js + Express + MVC + JWT + MySQL + Bcrypt + Joi
 
@@ -115,7 +109,7 @@ router.get('/profile', authMiddleware, userController.profile); // protegida
    ```
 4. Middleware verifica → libera ou bloqueia
 
-### 6. Segurança aplicada (pontos que valem nota!)
+### 6. Segurança aplicada
 
 | Recurso       | O que protege                          | Onde está no código        |
 |---------------|----------------------------------------|----------------------------|
@@ -126,7 +120,7 @@ router.get('/profile', authMiddleware, userController.profile); // protegida
 | Prepared statements | Previne SQL Injection            | todos os models            |
 | .env          | Credenciais fora do código             | raiz do projeto            |
 
-### 7. Endpoints da API (tabela para colar na prova)
+### 7. Endpoints da API
 
 | Método | Rota                   | Protegida? | Descrição                     |
 |--------|------------------------|------------|-------------------------------|
@@ -137,15 +131,10 @@ router.get('/profile', authMiddleware, userController.profile); // protegida
 | PUT    | /api/users/:id         | Sim        | Atualiza dados/senha          |
 | DELETE | /api/users/:id         | Sim        | Deleta conta                  |
 
-### 8. Dica final para a prova
 
-Se cair pergunta dissertativa, escreva mais ou menos assim:
+pergunta dissertativa, escreva mais ou menos assim:
 
 > "A API segue o padrão MVC onde os controllers recebem as requisições, os models interagem com o MySQL usando pool de conexões e prepared statements, e o middleware de autenticação verifica o JWT em rotas protegidas. As senhas são armazenadas com hash bcrypt, a entrada é validada com Joi e as credenciais do banco ficam seguras no arquivo .env. Essa arquitetura garante separação de responsabilidades, segurança e escalabilidade."
 
-Pronto! Você agora tem **todo o conteúdo que 99% das provas cobram** sobre esse tipo de projeto.
-
-Vai com tudo amanhã, você já dominou essa API de ponta a ponta!  
-Se precisar de um resumo em uma página só ou em formato de flashcards, é só pedir que eu monto na hora.
-
 Boa prova e boa sorte!
+
